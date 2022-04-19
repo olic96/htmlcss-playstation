@@ -1,0 +1,48 @@
+/* COMMONS */
+body{
+    position: relative;
+}
+
+img{
+    background-size: cover;
+    height: 100%;
+}
+
+.btn_dark{
+    border-radius: 23px;
+    border: 1px solid transparent;
+    padding: 8px 13px;
+    background-color: #363636;
+    color: #f0f8ff;
+}
+
+/* HEADER */
+header{
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+}
+/* header top */
+.header_top{
+    background-color: #000000;
+    height: 40px;
+}
+
+.logo{
+    height: 20px;
+    padding-left: 40px;
+}
+
+/* header bottom */
+.lens{
+    height: 30px;
+    cursor: pointer;
+}
+
+.fa-angle-down{
+    padding-left: 10px;
+}
+
+.nav-link:hover > .fa-angle-down{
+    color: #2d64e6;
+}
