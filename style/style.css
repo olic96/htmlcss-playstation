@@ -24,13 +24,15 @@ header{
 }
 /* header top */
 .header_top{
+    display: flex;
+    justify-content: end;
     background-color: #000000;
     height: 40px;
 }
 
 .logo{
     height: 20px;
-    padding-left: 40px;
+    margin: 8px;
 }
 
 /* header bottom */
@@ -45,4 +47,11 @@ header{
 
 .nav-link:hover > .fa-angle-down{
     color: #2d64e6;
+}
+
+/* MAIN */
+
+/* hero */
+.hero{
+    overflow-x: hidden;
 }
