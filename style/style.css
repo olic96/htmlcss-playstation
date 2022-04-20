@@ -78,7 +78,6 @@ main{
 .hero_section_top{
     position: relative;
     color: #f0f8ff;
-
 }
 
 .hero_section_top::after{
@@ -93,11 +92,11 @@ main{
 }
 
 .hero_content h1{
-    margin-bottom: 30px;
+    margin-bottom: 15px;
 }
 
 .hero_content button{
-    margin-top: 20px;
+    margin-top: 10px;
 }
 
 .jumbo{
@@ -153,3 +152,61 @@ main{
 .text{
     text-align: center;
 }
+
+/* it takes 2 */
+.section_it_takes_2{
+    position: relative;
+    color: #f0f8ff;
+}
+.section_it_takes_2::after{
+    content: "";
+    display: block;
+}
+
+.background_img{
+    width: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    min-height: 600px;
+}
+
+.section_content{
+    position: absolute;
+    z-index: 1;
+    top: 50px;
+}
+
+.it_takes_2{
+    width: 250px;
+}
+
+.it_takes_2 img{
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.section_content h1{
+    margin-bottom: 15px;
+}
+
+.section_content button{
+    margin-top: 10px;
+}
+
+/*  nuove uscite */
+.nuove_uscite{
+    margin-top: 645px;
+    background-color: #1f1f1f;
+    color: #f0f8ff;
+}
+
+.nuove_uscite img{
+    object-fit: cover;
+    width: 100%;
+    border-radius: 15px;
+}
+
