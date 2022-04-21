@@ -210,3 +210,16 @@ main{
     border-radius: 15px;
 }
 
+/* ps4 */
+.ps4 .row{
+    display: flex;
+    justify-content: center;
+}
+
+.ps4 h2{
+    text-align: center;
+}
+.ps4 img{
+    object-fit: cover;
+    width: 100%;
+}
