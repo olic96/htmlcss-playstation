@@ -193,6 +193,10 @@ main{
     width: 100%;
 }
 
+.hero_section_bottom .col-6:hover{
+    transform: translateY(-20px);
+    transition: 1s;
+}
 /* ecco la ps5 */
 .title_section{
     text-align: center;
