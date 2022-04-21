@@ -29,6 +29,14 @@ body{
     color: #f0f8ff;  
 }
 
+.btn_gray{
+    border-radius: 25px;
+    border: 1px solid transparent;
+    padding: 8px 13px;
+    background-color: #d9dadc;
+    color: #2d64e6;  
+}
+
 /* TYPO */
 h6{
     color: #2d64e6;
@@ -223,3 +231,28 @@ main{
     object-fit: cover;
     width: 100%;
 }
+
+/* ps plus */
+.ps_plus .row{
+    display: flex;
+    align-items: center;
+}
+
+.logo_plus{
+    width:300px;
+}
+
+.logo_plus img{
+    object-fit: cover;
+    width: 100%;
+}
+
+.ps_plus{
+    background-color: #bebcbb;
+}
+
+.ps_plus img{
+    object-fit: cover;
+    width: 100%;
+}
+
