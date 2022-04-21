@@ -128,6 +128,7 @@ main{
 .hero_section_top{
     position: relative;
     color: #f0f8ff;
+    margin-bottom: 600px;
 }
 
 .hero_section_top::after{
@@ -184,9 +185,6 @@ main{
     border: 5px solid #4095da;
 }
 
-.hero_section_bottom{
-    margin-top: 550px;
-}
 .hero_section_bottom img{
     object-fit: cover;
     border-radius: 15px;
