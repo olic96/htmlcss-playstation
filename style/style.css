@@ -313,3 +313,24 @@ main{
     object-fit: cover;
     width: 100%;
 }
+
+/* FOOTER */
+footer{ 
+    background-color: #00439c;
+    color: #f0f8ff;
+}
+/* footer top */
+.footer_top ul li{
+    display: block;
+    padding: 7px;
+}
+
+.footer_top ul li a{
+    text-decoration: none;
+    color: #f0f8ff;
+}
+
+/* footer bottom */
+.logo_sie{
+    width: 200px;
+}
