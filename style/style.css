@@ -13,6 +13,12 @@ body{
     color: #f0f8ff;
 }
 
+.btn_dark:hover{
+   outline: inset;
+   outline-color: #363636;
+   outline-offset: 2px;
+}
+
 .btn_orange{
     border-radius: 25px;
     border: 1px solid transparent;
@@ -20,6 +26,13 @@ body{
     background-color: #cd3d0f;
     color: #f0f8ff; 
 }
+
+.btn_orange:hover{
+    outline: inset;
+    outline-color: #cd3d0f;
+    outline-offset: 2px;
+ }
+ 
 
 .btn_blu{
     border-radius: 25px;
@@ -29,6 +42,13 @@ body{
     color: #f0f8ff;  
 }
 
+.btn_blu:hover{
+    outline: inset;
+    outline-color: #2d64e6;
+    outline-offset: 2px;
+ }
+ 
+
 .btn_gray{
     border-radius: 25px;
     border: 1px solid transparent;
@@ -37,6 +57,13 @@ body{
     color: #2d64e6;  
 }
 
+.btn_gray:hover{
+    outline: inset;
+    outline-color: #d9dadc;
+    outline-offset: 2px;
+ }
+ 
+
 .btn_white{
     border-radius: 25px;
     border: 1px solid transparent;
@@ -44,6 +71,13 @@ body{
     background-color: #f0f8ff;
     color: #2d64e6;  
 }
+
+.btn_white:hover{
+    outline: inset;
+    outline-color: #f0f8ff;
+    outline-offset: 2px;
+ }
+ 
 
 /* TYPO */
 h6{
@@ -143,28 +177,12 @@ main{
 
 .img_border_1{
     padding: 2px;
-    border: 5px solid #2d64e6;
+    border: 5px solid #4095da;
 }
 
 .img_border:hover{
-    border: 5px solid #2d64e6;
+    border: 5px solid #4095da;
 }
-
-
-
-.hero_section_bottom .col-6, .col-md-4, .col-lg-2{
-    transition: 1s;
-}
-
-.hero_section_bottom .col-6, .col-md-4, .col-lg-2:hover{
-    transform: translateY(40px)
-}
-
-
-
-
-
-
 
 .hero_section_bottom{
     margin-top: 550px;
@@ -185,14 +203,22 @@ main{
     width: 100%;
 }
 
-.ecco_la_ps5 .container .col-4{
+.ecco_la_ps5 .container .border_bottom{
     border: 3px solid transparent;
 }
 
-.ecco_la_ps5 .container .col-4:hover{
+.border_bottom_1{
+    border-bottom: 3px solid #4095da;
+}
+
+.ecco_la_ps5 .container .border_bottom:hover{
    border-bottom: 3px solid #4095da;
-   opacity: 0.6;
+   border-radius: 4px;
    cursor: pointer;
+}
+
+.ecco_la_ps5 .col-4:hover{
+    opacity: 0.7;
 }
 
 .text{
