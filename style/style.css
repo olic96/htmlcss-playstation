@@ -37,6 +37,14 @@ body{
     color: #2d64e6;  
 }
 
+.btn_white{
+    border-radius: 25px;
+    border: 1px solid transparent;
+    padding: 8px 13px;
+    background-color: #f0f8ff;
+    color: #2d64e6;  
+}
+
 /* TYPO */
 h6{
     color: #2d64e6;
@@ -263,5 +271,30 @@ main{
 
 .sconti img{
     object-fit: contain;
+    width: 100%;
+}
+
+/* ps now */
+.ps_now .row{
+    display: flex;
+    align-items: center;
+    color: #f0f8ff;
+}
+
+.logo_ps_now{
+    width:300px;
+}
+
+.logo_ps_now img{
+    object-fit: cover;
+    width: 100%;
+}
+
+.ps_now{
+    background-color: #161c3b;
+}
+
+.ps_now img{
+    object-fit: cover;
     width: 100%;
 }
