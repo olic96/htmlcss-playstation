@@ -298,3 +298,18 @@ main{
     object-fit: cover;
     width: 100%;
 }
+
+/* social */
+.social h3{
+    text-align: center;
+}
+
+.social .row{
+    display: flex;
+    justify-content: center;
+}
+
+.social img{
+    object-fit: cover;
+    width: 100%;
+}
