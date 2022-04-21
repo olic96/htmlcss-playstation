@@ -256,3 +256,12 @@ main{
     width: 100%;
 }
 
+/* sconti */
+.sconti h2, .sconti p{
+    text-align: center;
+}
+
+.sconti img{
+    object-fit: contain;
+    width: 100%;
+}
